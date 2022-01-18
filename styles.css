@@ -27,11 +27,9 @@ body {
     display: flex;    
     /* border: 1px solid black; */
 }
-.form-control {
-    
-}
+
 #todoInput {
-    flex: 2;
+    flex: 4;
     border-radius: 20px 0px 0px 20px;
     line-height: 1.8rem;
     
