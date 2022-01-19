@@ -10,16 +10,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <header class="header text-center p-2">
-        <h1>Todos by Daniel</h1>
-    </header>
+    <div class="top">
+        <header class="header text-center p-2 mt-3">
+            <h1>Todos by Daniel</h1>
+        </header>
+    </div>
 
     <form id="todoForm" class="container mt-5">
         <div class="input-group">
-            <input type="text" id="todoInput" class="form-control" placeholder="Add todo">
+            <input type="text" id="todoInput" class="form-control" placeholder="Add todo" >
             <button class="btn btn-primary btn-add">Add</button>
         </div>
+        <div id="error" class="feedback"></div>
     </form>
 
     <div id="output" class="container output">           
