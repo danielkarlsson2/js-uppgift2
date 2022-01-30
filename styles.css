@@ -67,9 +67,13 @@ body {
     transform: scale(1.1);
     
 }
+#check {
+    /* TESTAR MED KLAR */
+}
 
 
 .todo {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -84,7 +88,7 @@ body {
 }
 .todo-title {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: .9rem;
     
 }
 .output {
@@ -93,5 +97,6 @@ body {
     /* background-color: rgb(235, 232, 232); */
     border: 1px solid rgba(0, 0, 0, 0.091);
     border-radius: 10px;
-    
+    /* display: flex; */
+    align-items: center;
 }

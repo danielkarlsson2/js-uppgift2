@@ -32,12 +32,7 @@ fetchTodos();
 const todosOutput = () => {
     output.innerHTML = '';
     todos.forEach(todo => {
-        output.appendChild(createTodoElement(todo))
-        // output.insertAdjacentHTML('beforeend', 
-        // ` <div class="todo">
-        //     <p class="todo-title">${todo.title}</p>
-        //     <button class="btn btn-danger btn-sm">X</button>
-        // </div>`)
+        output.appendChild(createTodoElement(todo))        
     })
 }
 
